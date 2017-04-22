@@ -4,7 +4,7 @@
 
 The COWMAZING gem has a method called 'moo'. It accepts a text string and returns an html string that can be rendered to show a cow saying the text string. It is fun and easy!
 
-![Image of Cow Head]('./public/img/cow1.png')
+![Image of Cow Head]('../public/img/cow1.png')
 
 TO USE THIS GEM from within a .rb file:  
 
@@ -23,7 +23,7 @@ TO CREATE THIS GEM
 
 &nbsp;&nbsp;&nbsp;cowmazing/  
  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bin  
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cowmazing (an executable file, loaded into the user's PATH when the gem is installed)
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cowmazing (an executable file, loaded into the user's PATH when the gem is installed)  
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lib/  
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cowmazing.rb (where our gem code resides - the **MEAT** of the gem - we wrote a class method called moo in our gem)   
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;test/  
