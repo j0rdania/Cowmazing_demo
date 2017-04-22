@@ -6,6 +6,8 @@ The COWMAZING gem has a method called 'moo'. It accepts a text string and return
 
 ![alt_text](https://github.com/j0rdania/Cowmazing_demo/blob/master/cow1.png "Cowmazing Head")
 
+-------------------
+
 ### TO USE THIS GEM from within a .rb file:  
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`require 'cowmazing'`  
@@ -16,6 +18,7 @@ or
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`@cow_info = Cowmazing.moo('Hello World')`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;erb :index
 
+-------------------
 
 ### TO CREATE THIS GEM
 
@@ -47,6 +50,8 @@ This gem has not been published, but to publish it, take these steps:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Push out the gem:
 `gem push cowmazing-0.0.2.gem`
+
+-------------------
 
 #### Create your own:
 http://guides.rubygems.org/make-your-own-gem/
