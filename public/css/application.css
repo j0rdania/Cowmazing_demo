@@ -1,0 +1,20 @@
+.container {
+  margin: 30px auto;
+  width: 600px;
+  padding: 0px 20px 20px 20px;
+  border: 1px dotted black;
+}
+th {
+  text-align: left;
+}
+
+h1 {font-size: 110%;}
+h2 {font-size: 90%;}
+  
+/*change form field color when user hovers over it */
+input[type=text]:hover {
+        background-color:#ffff66;
+        border-color:#999999;
+}
+
+#text-to-cowify {width: 550px;}

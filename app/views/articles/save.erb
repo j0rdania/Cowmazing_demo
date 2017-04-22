@@ -1,0 +1,18 @@
+ 
+<%if @save_or_create == 'save'%>
+  <% msg = 'The changes to your listing have been saved.'%>
+<%else%>
+  <% msg = 'Your listing has been added.'%>
+<%end%>
+<h2> <%=msg%> Use this secret URL to edit your listing. Be sure to copy it and save it to a safe place.</h2>
+<br>
+Top Secret URL: 
+<br>
+<%=@secret_url%>
+<br>
+<br>
+<a href="/">Return to Sparky's List, Junior, list of categories!</a>
+
+  
+  
+

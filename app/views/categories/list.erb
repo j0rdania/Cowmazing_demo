@@ -1,0 +1,10 @@
+
+<fieldset>
+  <legend>Exciting Categories</legend>
+  <%@categories.each do |category|%>
+    <br>
+    <a href="categories/<%=category.id%>/articles"><%=category.name%></a>
+  <%end%> 
+</fieldset>
+
+
