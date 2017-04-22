@@ -4,7 +4,7 @@
 
 The COWMAZING gem has a method called 'moo'. It accepts a text string and returns an html string that can be rendered to show a cow saying the text string. It is fun and easy!
 
-![alt_text][Image of Cow Head]('../public/img/cow1.png')
+![alt_text](https://github.com/j0rdania/Cowmazing_demo/blob/master/cow1.png "Cowmazing Head")
 
 TO USE THIS GEM from within a .rb file:  
 
