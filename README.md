@@ -17,7 +17,7 @@ or
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;erb :index
 
 
-TO CREATE THIS GEM
+### TO CREATE THIS GEM
 
 1. set up the correct directory structure for a gem and modify to suit your needs:
 
