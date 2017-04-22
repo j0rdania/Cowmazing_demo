@@ -4,6 +4,8 @@
 
 The COWMAZING gem has a method called 'moo'. It accepts a text string and returns an html string that can be rendered to show a cow saying the text string. It is fun and easy!
 
+![Image of Cow Head]('./public/img/cow1.png')
+
 TO USE THIS GEM from within a .rb file:  
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`'require 'cowmazing'`  
@@ -19,16 +21,16 @@ TO CREATE THIS GEM
 
 1. set up the correct directory structure for a gem and modify to suit your needs:
 
-cowmazing/  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bin  
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cowmazing (an executable file, loaded into the user's PATH when the gem is installed)
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lib/  
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cowmazing.rb (where our gem code resides - the **MEAT** of the gem - we wrote a class method called moo in our gem)   
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;test/  
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;test_cowmazing.rb (contains tests)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;README.md  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rakefile  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cowmazing.gemspec (contains info about gem files, platform, version #, author info, etc.)  
+&nbsp;&nbsp;&nbsp;cowmazing/  
+ &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bin  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cowmazing (an executable file, loaded into the user's PATH when the gem is installed)
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lib/  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cowmazing.rb (where our gem code resides - the **MEAT** of the gem - we wrote a class method called moo in our gem)   
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;test/  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;test_cowmazing.rb (contains tests)  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;README.md  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rakefile  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cowmazing.gemspec (contains info about gem files, platform, version #, author info, etc.)  
 
 
 2. build the gem: from the cowmazing project directory at the terminal,
