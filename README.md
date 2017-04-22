@@ -14,7 +14,7 @@ TO USE THIS GEM from within a .rb file:
 or 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`@cow_info = Cowmazing.moo('Hello World')`  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;erb :index
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`erb :index`
 
 
 TO CREATE THIS GEM
@@ -22,7 +22,7 @@ TO CREATE THIS GEM
 1. set up the correct directory structure for a gem and modify to suit your needs:
 
 &nbsp;&nbsp;&nbsp;cowmazing/  
- &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bin  
+ &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bin/    
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cowmazing (an executable file, loaded into the user's PATH when the gem is installed)  
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lib/  
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cowmazing.rb (where our gem code resides - the **MEAT** of the gem - we wrote a class method called moo in our gem)   
