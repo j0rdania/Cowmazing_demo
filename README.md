@@ -1,14 +1,14 @@
 # Cowmazing!
 
-# Are you in the moooooooood to learn how to make a gem?
+## Are you in the moooooooood to learn how to make a gem?
 
 The COWMAZING gem has a method called 'moo'. It accepts a text string and returns an html string that can be rendered to show a cow saying the text string. It is fun and easy!
 
-![Image of Cow Head]('../public/img/cow1.png')
+![alt_text][Image of Cow Head]('../public/img/cow1.png')
 
 TO USE THIS GEM from within a .rb file:  
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`'require 'cowmazing'`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`require 'cowmazing'`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`puts Cowmazing.moo('Hello World')`
 
 or 
