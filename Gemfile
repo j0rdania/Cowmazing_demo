@@ -22,7 +22,5 @@ group :test do
   gem 'rspec'
 end
 
-gem "hola", path: "../gems/hola"
-
 # our awesome gem!
 gem "cowmazing", path: "../gems/cowmazing"
