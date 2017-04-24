@@ -17,7 +17,7 @@ or
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`require 'cowmazing'`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`@cow_info = Cowmazing.moo('Hello World')`  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;erb :index
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`erb :index`
 
 -------------------
 
