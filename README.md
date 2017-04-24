@@ -10,14 +10,21 @@ The COWMAZING gem has a method called 'moo'. It accepts a text string and return
 
 ### TO USE THIS GEM  
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`require 'cowmazing'`  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`puts Cowmazing.moo('Hello World')`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;in the Gemfile for your app:
 
-or 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`gem 'cowmazing', path: "../gems/cowmazing`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(note that a local path was specified, since this gem has not yet been published)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`require 'cowmazing'`  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`@cow_info = Cowmazing.moo('Hello World')`  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;erb :index
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;in your ruby code:
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`require 'cowmazing'`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`puts Cowmazing.moo('Hello World')`
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;or 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`require 'cowmazing'`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`@cow_info = Cowmazing.moo('Hello World')`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;erb :index
 
 -------------------
 
